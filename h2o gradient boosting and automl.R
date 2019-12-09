@@ -17,9 +17,9 @@ h2o.removeAll()
 options(max.print = 10000000)
 
 # Read in datasets
-train <- h2o.importFile("C:\\Users\\17046\\OneDrive\\Documents\\MSA 20\\Machine Learning\\machine_learning_datasets\\train_split.csv")
-valid <- h2o.importFile("C:\\Users\\17046\\OneDrive\\Documents\\MSA 20\\Machine Learning\\machine_learning_datasets\\valid_split.csv")
-test <- h2o.importFile("C:\\Users\\17046\\OneDrive\\Documents\\MSA 20\\Machine Learning\\machine_learning_datasets\\MLProjecttest.csv")
+train <- h2o.importFile()
+valid <- h2o.importFile()
+test <- h2o.importFile()
 
 #Prep both datasets --> both targets are encoded as 
 h2o.describe(train)
